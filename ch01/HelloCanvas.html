@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>HelloCanvas</title>
+        <meta charset="utf-8"/>
+
+        <style type="text/css">
+            canvas{ border:2px dotted blue;}
+            #canvas-container{
+                margin: 0 auto;
+                width: 800px;
+            }
+        </style>
+        <script src="../lib/cuon-matrix.js"></script>
+        <script src="../lib/cuon-utils.js"></script>
+        <script src="../lib/webgl-debug.js"></script>
+        <script src="../lib/webgl-utils.js"></script>
+        <script src="./HelloCanvas.js"></script>
+    </head>
+    <body onload="main()">
+        <div id = "canvas-container">
+            <canvas id="canvas-element" width="800" height="600">
+                不支持HTML5 Canvas元素
+            </canvas>
+        </div>
+
+    </body>
+</html>
